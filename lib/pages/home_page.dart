@@ -17,13 +17,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Center(child: Text("Home")),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        actions: [
-          //logout button
-          IconButton(
-            onPressed: logout,
-            icon: Icon(Icons.logout),
-          )
-        ],
+        
       ),
       drawer: MyDrawer(),
     );
